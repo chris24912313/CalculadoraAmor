@@ -12,7 +12,7 @@ function love() {
     }
     else {
         const names = [firstName.trim().toUpperCase(), secondName.trim().toUpperCase()];
-        const perfectMatchNames = ["CRISTHOFER", "DIANA"];
+        const perfectMatchNames = ["CRISTHOFER", "DIANA","ANTHONY","ANTHONY CRISTHOFER","ANTHONY CALLIRGOS","ANTHONY CRISTHOFER CALLIRGOS VICTORIANO","DIANA CAROLINE HUAMANI PUERTAS","DIANA CAROLINE","DIANA HUAMANI","DIANA HUAMANI PUERTAS",,"ANTHONY CALLIRGOS VICTORIANO"];
       
         if (names.every(name => perfectMatchNames.includes(name))) {
           document.getElementById("output").innerHTML = "El puntaje para " + firstName + " y " + secondName + " es 100%";
